@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from '../assets/img/meter1.svg'
 import meter2 from '../assets/img/meter2.svg'
 import meter3 from '../assets/img/meter3.svg'
-import colorSharp from '../assets/img/color-sharp.png'
+import colorSharp from '../assets/img/pexels-gradienta-6984984.jpg'
 
 
 const Skills = () => {
@@ -35,9 +35,9 @@ const Skills = () => {
                    <Col>
                    <div className='skill-bx'>
                     <h2>
-                        skills
+                        Skills
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rem quae, minima, magni sed repudiandae perspiciatis provident id illum nulla porro repellendus laborum animi ipsa nobis reprehenderit incidunt ratione voluptatibus.</p>
+                    <p>I have experience coding websites and modern HTML,CSS ,JAVA SCRIPT ,REACT JS  , NODE JS, EXPRESS JS, and firebase Authentication as a fresher.</p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>
                             <img src={meter1} alt="Image" />

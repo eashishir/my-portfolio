@@ -38,41 +38,46 @@ const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos magnam sint voluptas excepturi vero blanditiis eaque, nam alias numquam debitis doloribus nisi ducimus earum aspernatur ullam. Corrupti, aut at.
+                        <p>
+                            *Made Ui:
+                            Using React JS Components and Library And Tailwind Css ,DasiyUi.
+                            *Made Backend:
+                            Using Express,Json Token,MongoDb,Node Js.
+                            *Authentication using Firebase.
                         </p>
-                        <Tab.Container id='projects-tabs'defaultActiveKey='first'>
-                        <Nav variant="pills" defaultActiveKey="/home">
-                            <Nav.Item>
-                                <Nav.Link ventKey="First" >Tab One</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="Second">Tab Two</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="Third">
-                                    Tab Three
-                                </Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                        <Tab.Content>
-                            <Tab.Pane eventKey='first'>
-                                <Row>
-                                    {
-                                        projects.map((project, i) => {
-                                            return (
-                                                <ProjectsCard
-                                                key={i}
-                                                project={project}
-                                                ></ProjectsCard>
-                                            )
-                                        })
-                                    }
-                                </Row>
-                                
-                            </Tab.Pane>
-                            <Tab.Pane eventKey='second'>l0rem</Tab.Pane>
-                            <Tab.Pane eventKey='Third'>10rem</Tab.Pane>
-                        </Tab.Content>
+                        <Tab.Container id='projects-tabs' defaultActiveKey='first'>
+                            <Nav variant="pills" className='nav-pills mb-5 justify-content-center align-items-center' id='pills-tab'>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="first" >Tab One</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey="third">
+                                        Tab Three
+                                    </Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                            <Tab.Content>
+                                <Tab.Pane eventKey='first'>
+                                    <Row>
+                                        {
+                                            projects.map((project, i) => {
+                                                return (
+                                                    <ProjectsCard
+                                                        key={i}
+                                                        project={project}
+                                                    ></ProjectsCard>
+                                                )
+                                            })
+                                        }
+                                    </Row>
+
+                                </Tab.Pane>
+                                <Tab.Pane eventKey='second'>l0rem</Tab.Pane>
+                                <Tab.Pane eventKey='third'>10rem</Tab.Pane>
+                            </Tab.Content>
                         </Tab.Container>
                     </Col>
                 </Row>
