@@ -15,21 +15,25 @@ const Projects = () => {
             title: "Mobilemela",
             description: "MERN Stack Project",
             imgUrl: proImg1,
+            link: 'https://my-assignment12-c132e.web.app/'
         },
         {
-            title: "Mobilemela",
-            description: "MERN Stack Project",
+            title: "Quiz-Crekerz",
+            description: "Frontend Project",
             imgUrl: proImg2,
+            link: 'https://teal-pithivier-1824b6.netlify.app/'
         },
         {
-            title: "Mobilemela",
+            title: "in-focus photography",
             description: "MERN Stack Project",
             imgUrl: proImg3,
+            link: 'https://mine-assignment-11.web.app/'
         },
         {
-            title: "Mobilemela",
-            description: "MERN Stack Project",
+            title: "Best Five",
+            description: "Frontend Project",
             imgUrl: proImg4,
+            link: 'https://legendary-rugelach-9b2849.netlify.app/'
         }
     ]
     return (
